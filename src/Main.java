@@ -12,7 +12,7 @@ public class Main {
 		// create 50 rooms
 		for (int i = 0; i < 50; i++) {
 			Room room = new Room();
-			for (int j = 0; j < RandomGenerator.getDefault().nextInt(0, 30); j++) {
+			for (int j = 0; j < RandomGenerator.getDefault().nextInt(15, 30); j++) {
 				Chair chair = new Chair();
 				chair.setlocation(new int[] {
 						RandomGenerator.getDefault().nextInt(0, 5),
